@@ -7,7 +7,7 @@ const db = require("./data/db");
 const port = process.env.PORT || 5000;
 
 app.get("/", (req, res) => {
-  res.send("hello from a express server :)");
+  res.send("hello from a express server:)");
 });
 
 app.listen(port, () =>
